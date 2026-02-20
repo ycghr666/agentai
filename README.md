@@ -1,5 +1,7 @@
 shared profile：https://docs.google.com/document/d/1_SsrxBNvvOtX3BMz6UwBir1lY2U9Yh8_tBm3Jr3DQ5I/edit?tab=t.0
 
+This is an Agent AI web app. Users upload a PDF and ask questions via text or speech. The system uses RAG to retrieve relevant passages from the PDF and generate concise answers, and it can also run web search (via MCP) to supplement or cross-check results. The frontend is built with React, the backend with Node.js/Express, and LangChain orchestrates the retrieval + LLM calls through OpenAI. Key endpoints include /upload and /chat.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
